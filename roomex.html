@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- link of my work -->
+
+  <!-- css bootstrap link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- script bootstrap link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- font awesom link -->
+  <script src="https://use.fontawesome.com/ad39af6ed9.js"></script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/css/roomex.css">
+
+
+  </head>
+
+  <body  >
+    <section class="colored-section" id="title">
+
+      <div class="container-fluid">
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+
+          <a class="navbar-brand link" style="font-family:'Ubuntu';font-size: 3rem;font-weight: bold;" href="">title</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#pick">Our Pick<span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#rooms">Rooms</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </nav>
+
+  </section>
+
+   <!-- room discription 1 div -->
+
+  <div class="option box row" id="discription-1" >
+
+      <div class="box  col-lg-6 ">
+        <img src="images/room1.jpg" class="img-thumbnail " alt="image1">
+      </div>
+
+      <div class="box  col-lg-6">
+        <h1>Name of Room</h1>
+        <p>discription discription discription discription discription discription discription </p>
+      </div>
+
+  </div>
+
+<hr>
+
+  <!-- room discription 2 div -->
+ <div class="option box row" id="discription-2" >
+
+     <div class="box  col-lg-6 ">
+       <h1>Basic discription 1</h1>
+       <p>discription discription discription discription discription discription discription </p>
+     </div>
+
+     <div class="box  col-lg-6">
+       <img src="images/room1.jpg" class="img-thumbnail " alt="image1">
+     </div>
+
+ </div>
+
+<hr>
+
+   <!-- room discription 3 div -->
+  <div class="option box row" id="discription-3" >
+
+      <div class="box  col-lg-6 ">
+        <h1>Basic discription 1</h1>
+        <p>discription discription discription discription discription discription discription </p>
+      </div>
+
+      <div class="box  col-lg-6">
+       <img src="images/room1.jpg" class="img-thumbnail " alt="image1">
+      </div>
+
+  </div>
+
+
+   <!-- model  start -->
+
+    <!-- Button trigger modal div-->
+
+    <div class="container-fluid">
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+
+              <!-- header  -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Book Room</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                <!-- main body  /  form-->
+          <div class="modal-body">
+            <form class="needs-validation " novalidate>
+             <div class="form-row">
+                      <h4>Room Type/ /name</h4>
+             </div>
+             <div class="form-row ">
+
+              <!-- mine work -->
+
+            <label for="">Your Name:</label>
+            <input type="text" class="form-control" name="" placeholder="NAME" required>
+            <label for="">Mobile No:</label>
+            <input type="tel" class="form-control" placeholder="01234-56789" pattern="[0-9]{5}-[0-9]{5}" required>
+            <label for="">Email:</label>
+            <input type="email" class="form-control" name="" placeholder="email@com">
+            <label for="">Proof ID Type:</label>
+            <select class="custom-select my-1 mr-sm-2" >
+            <option selected>Adhar Card</option>
+            <option >Voter ID</option>
+            <option >Driving License</option>
+            <option >Paasport</option>
+            </select>
+            <label for="">ID No:</label>
+            <input class="form-control" type="tel" placeholder="01234-56789" pattern="[0-9]{5}-[0-9]{5}" required>
+            <label for="">Date and Time of Booking Room</label>
+            <input class="form-control" type="datetime-local" name="" value="">
+            <label for="">Date and Time of Leaving Room</label>
+            <input class="form-control" type="datetime-local" name="" value="">
+            <label for="">Total Payment</label>
+            <input type="text" class="form-control" name="" placeholder="&#8377; XXX">
+            <label for="">Payment Method</label>
+            <div class="paymentMethod form-group">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="cash" name="radio" class="custom-control-input">
+                <label class="custom-control-label" for="cash">Cash</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="online" name="radio" class="custom-control-input">
+                <label class="custom-control-label" for="online">online
+                  <select class="custom-select my-1 mr-sm-2" >
+                  <option selected>Debit Card</option>
+                  <option >Credit Card</option>
+                  <option >UPI</option>
+                  <option >Netbanking</option>
+                  </select></label>
+              </div>
+
+            </div>
+            <hr>
+            <label for="">Advance Payment</label>
+            <input type="text" class="form-control" name="" placeholder="&#8377; 10%ofTotalPayment">
+
+
+                </div>
+
+                  </form>
+                      </div>
+                <!-- <footer -->
+                <div class="modal-footer">
+                  <label for="">Generate Recipt</label>
+                  <button type="button" class="btn btn-outline-primary">Recipt</button>
+
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+ <!-- end of modal -->
+</body>
+</html>

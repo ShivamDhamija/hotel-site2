@@ -1,0 +1,104 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+img{
+  height: 450px;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 5%;
+}
+
+/* Navigation Bar */
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #132c33;
+  color: #fff;
+
+
+}
+
+#title .container-fluid {
+  padding: 2%;
+}
+
+
+/* Rooms Section */
+#rooms{
+  background-color: #eeeeee;
+}
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* css of my work */
+
+
+/* nav bar */
+.bg-light{
+  height: 80px;
+}
+/* div start */
+.box{
+
+padding: 2% 0 5%;
+  margin: 0 auto;
+  border: 0;
+  text-align: center;
+}
+
+
+
+/* pick div */
+.pick{
+  background-color: #51c4d3;
+}
+/* end container */
+.icon{
+  padding: 0 5px ;
+}
+/* option div */
+.img{
+  padding: 5px 15px;
+}
+.img-thumbnail{
+  padding:20px 10px;
+  width: 250px;
+  height: 200px;
+}
+#footer{
+    text-align: center;
+    background-color: #d8e3e7;
+}
